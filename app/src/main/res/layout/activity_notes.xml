@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <!-- Título de la aplicación -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notas de emergencia"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Campo de texto para notas -->
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu nota aquí"
+        android:gravity="top|start"
+        android:minHeight="150dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón de guardar -->
+    <Button
+        android:id="@+id/buttonSaveNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Nota"
+        android:backgroundTint="#008577"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="end"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Contenedor dinámico para las notas -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/notesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
+
