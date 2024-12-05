@@ -37,7 +37,11 @@ Finalmente en el botón notas, podemos colocar algunas notas de manera temporal,
 
 ![image](https://github.com/user-attachments/assets/3063e7ea-7e9d-44a1-af79-0f24318f5d0c)
 
-Cuando guardamos una nota, 
+Cuando guardamos una nota, esta se verá reflejado en un mqtt en Node-Red.
+
+![image](https://github.com/user-attachments/assets/fa955d66-fc1a-4393-afe1-c871dae92c85)
+
+![image](https://github.com/user-attachments/assets/1258bac0-f934-4de3-99f7-5f3392898dc7)
 
 
 
